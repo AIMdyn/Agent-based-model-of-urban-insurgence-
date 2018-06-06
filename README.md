@@ -1,5 +1,7 @@
 # Agent-based-model-of-urban-insurgence-
 
-Each file with name "Actives_LD100_seed111_id0.txt" has 3 values outputted for each time moment of the simulation: number of active citizens, number of intimidated citizens, number of 
+Files in folder "0bar"
 
-Each file with name "" has x-coordinate of an agent, y-coordinate of an agent, agent's state, agent's risk aversion, agent's hardship. If an agent is jailed then 
+Each file with name starting with Actives_ for each time moment of the simulation has number of active citizens, number of intimidated citizens, number of LEOs. These files are provided for lattice sizes from 100 to 600 and different random seeds.
+
+Each file with name starting with Day_ for each not-jailed agent has his/her x-coordinate, y-coordinate, agent's state, agent's risk aversion, agent's hardship, total number of days of an agent of being active and -1. If an agent is LEO, then last four numbers are -1. These files are provided for each time moment of the simulation, each lattice size and the corresponding random seed used. For example, file "Day_10000_100_111.txt" provides information on the lattice situation at time moment 10000 with lattice size 100 and random seed 111.
